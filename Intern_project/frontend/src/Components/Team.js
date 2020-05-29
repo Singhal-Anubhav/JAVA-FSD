@@ -4,23 +4,23 @@ const Team = (props) => {
     return (
         <div className="team__info">
         {
-            props.city && <p className="team__key"> City:
+            props.city && <p className="team__key"> City :
             <span className="team__value"> {props.city}</span>
             </p>
         }
         {
-            props.fullName && <p className="weather__key"> FullName:
-            <span className="weather__value"> {props.fullName} °C	</span>
+            props.fullName && <p className="team__key"> FullName :
+            <span className="team__value"> {props.fullName}</span>
             </p>
         }
         {
-            props.nickname && <p className="team__key"> NickName:
-            <span className="team__value"> {props.nickname} %</span>
+            props.nickname && <p className="team__key"> NickName :
+            <span className="team__value"> {props.nickname}</span>
             </p>
         }
         {
-            props.logo && <p className="team__key"> logo:
-            <span className="team__value"> {props.logo} </span>
+            props.leagues && <p className="team__key"> Leagues :
+            <span className="team__value"> {props.leagues} </span>
             </p>
         }
         {
